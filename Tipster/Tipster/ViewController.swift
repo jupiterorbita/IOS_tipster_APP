@@ -26,8 +26,8 @@ class ViewController: UIViewController {
     @IBOutlet weak var topTotalLabel: UILabel!
     
     
-    @IBOutlet weak var groupSizeLabel: UILabel!
     
+    @IBOutlet weak var groupSizeLabel: UILabel!
     
     var sum = 0.0
     var decimalPressed = false
@@ -121,9 +121,9 @@ class ViewController: UIViewController {
     
     @IBAction func groupChanged(_ sender:
         UISlider) {
-        print("groupChanged =>", Int(sender.value))
-//        groupSizeLabel.text = "Group Size: \(groupSize)"
         groupSize = Int(sender.value)
+        print("groupChanged =>", Int(sender.value))
+        groupSizeLabel.text = "Group Size: \(groupSize)"
         updateOutput()
     }
     

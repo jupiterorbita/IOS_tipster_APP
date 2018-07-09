@@ -235,7 +235,7 @@
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Group Size 1" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eKN-NS-KPX">
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Group Size: 1" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eKN-NS-KPX">
                                                 <rect key="frame" x="0.0" y="40" width="130" height="40"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" constant="130" id="xbY-3j-yNm"/>
@@ -287,6 +287,7 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <connections>
+                        <outlet property="groupSizeLabel" destination="eKN-NS-KPX" id="hWw-II-Abe"/>
                         <outlet property="lowTALabel" destination="9tf-Mu-hdK" id="3KD-kw-9qK"/>
                         <outlet property="lowTipPercentLabel" destination="pCd-P1-ahw" id="A3c-Ey-Qw3"/>
                         <outlet property="lowTotalLabel" destination="Nh0-9Y-zgp" id="TpP-ox-Hgk"/>
